@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+      .nopadding {
+        padding: 0 !important;
+      }
+      /* Tabs*/
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #007b5e;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #999;
+    background-color: transparent;
+    border-color: transparent transparent;
+    border-bottom: 4px solid #8f4242 !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <div style='padding:24px'>
+      <div class="container-fluid" style='border: 0px solid darkgray'>
+          <div id='client' class="row align-items-center">
+            <div class="col-12 col-sm-1 nopadding" style='border: 0px solid darkgray'>
+              <div style='padding:16px' class='text-center'>
+                <img style='height:24px' src='logo.png' />
+              </div>
+            </div>
+            <div class="col-12 col-sm-4" style='border: 0px solid darkgray'>
+              Dan Zacappa
+            </div>
+            <div class="col nopadding" style='border: 0px solid darkgray'>
+              <div class='row' style='border: 0px solid green'>
+                  <div class='col-6' style='color:lightgrey'>
+                    Username
+                  </div>
+                  <div class='w-100'></div>
+                  <div class='col-6'>
+                    RonZ
+                  </div>
+              </div>
+            </div>
+            <div class="col" style='border: 0px solid darkgray'>
+                <div class='col-6' style='color:lightgrey'>
+                    Last login date
+                  </div>
+                  <div class='w-100'></div>
+                  <div class='col-6'>
+                    12-12-2000
+                  </div>
+            </div>
+            <div class="col" style='border: 0px solid darkgray'>
+                <div class='col-6' style='color:lightgrey'>
+                    First login date
+                  </div>
+                  <div class='w-100'></div>
+                  <div class='col-6'>
+                    13-12-1998
+                  </div>  
+            </div>
+          </div>
+          <div id='progress' class="row">
+              <div class="col" style='border: 1px solid darkgray'>
+                  <i style='color:green' class="fas fa-check-circle"></i>
+              </div>
+              <div class="col-5" style='border: 1px solid darkgray'>
+                One of three columns
+              </div>
+              <div class="col" style='border: 1px solid darkgray'>
+                One of three columns
+              </div>
+          </div>
+          <div id='milestones' class='row'>
+            <div class='col-12'>
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Family</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Affiliates</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Communities</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Family</div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Affiliates</div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Communities</div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
